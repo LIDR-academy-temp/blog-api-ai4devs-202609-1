@@ -28,11 +28,11 @@ blog/
 ```
 
 > 🚨 **El nombre de la carpeta no coincide con el del repositorio, y sí importa.**
-> Los repositorios se llaman `blog-api-ai4devs`, `blog-web-ai4devs` y `blog-ai-ai4devs`, pero
+> Los repositorios se llaman `blog-api-ai4devs-202609-1`, `blog-web-ai4devs-202609-1` y `blog-ai-ai4devs-202609-1`, pero
 > las carpetas en tu disco tienen que llamarse exactamente **`blog-api`**, **`blog-web`** y
 > **`blog-ai`**. Todo lo que viene después lo da por hecho: las rutas relativas entre los tres
 > y los comandos de este README. Por eso **el `git clone` lleva siempre la carpeta destino
-> escrita al final**. Si la omites, git te crea `blog-api-ai4devs` y a partir de ahí no encaja
+> escrita al final**. Si la omites, git te crea `blog-api-ai4devs-202609-1` y a partir de ahí no encaja
 > nada.
 
 ### Forkea los tres, y monta este
@@ -51,9 +51,9 @@ repositorio. Desde la carpeta que los va a contener (`mkdir blog && cd blog`), e
 tuyo:
 
 ```bash
-git clone git@github.com:<tu-usuario>/blog-api-ai4devs.git blog-api
+git clone git@github.com:<tu-usuario>/blog-api-ai4devs-202609-1.git blog-api
 cd blog-api
-git remote add upstream git@github.com:LIDR-academy/blog-api-ai4devs.git
+git remote add upstream git@github.com:LIDR-academy/blog-api-ai4devs-202609-1.git
 git fetch upstream
 git checkout -b s7/start upstream/s7/start
 ```
