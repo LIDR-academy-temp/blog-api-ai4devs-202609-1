@@ -1,0 +1,5 @@
+## Parte B
+
+1. Indicó que se cargó el CLAUDE.md de la carpeta raiz (/blog) y el CLAUDE.md del repo actual (blog-api). Skills disponibles tiene el que creamos para el repositorio blog-api y algunos adicionales de Claude Code, no mencionó tener disponible el de blog-ai. El nombre fue 'fragmentos_coincidentes' y fue en español por consideración de los atributos del mismo archivo, no por alguna regla.
+
+2. En su momento, el agente indico que los archivos se crearían hasta ser necesarios. Cuando se ejecutó el encargo el unico archivo que se creó fue MARCADORES-blog-api.tx y, obviamente, se registró el cambio del archivo en blog-ai. Lo que puedo ver es que el guardarraíl que se ejecuta es el correspondiente al repositorio abierto inicialmente y registra todo cambio incluyendo carpetas fuera del mismo repositorio (considerando que se agregó la carpeta del repositorio blog-ai con el comando indicado).
