@@ -1,0 +1,2 @@
+1. El agente dijo que había cargado 2 Claude.md, uno en blog y otro en blog-api, con skills en un montón de localizaciones y llamó al campo fragmentos\_coincidentes.
+2. Marcadores blog-api dice cuándo se editó qué archivo, y marcadores blog-ai no se ha creado porque estamos haciendo la tarea desde blog-api y en su propio harness dice "Debe añadir una línea a `MARCADORES-<nombre-del-repo>.txt`, en la raíz de **su propio repositorio**". No llega a cargar el de blog-ai. 
