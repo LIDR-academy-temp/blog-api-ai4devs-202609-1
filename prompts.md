@@ -22,14 +22,37 @@ Borra el ejemplo de abajo cuando escribas el primero.
 
 ## Prompt 1
 
-**Modelo:** Opus 1M xHigh
+**Modelo:** Opus 5.5
 **Herramienta:** Claude Code
 
 ```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+Añade a la clase ResultadoBusqueda, en ../blog-ai/app/esquemas.py, un campo que indique cuántos fragmentos del artículo han coincidido con la búsqueda. Modifica solo ese archivo y utilizar la herramienta de edición de archivos, nunca un script.
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+**Qué salió:** funcionó a la primera; añadió `fragmentos_coincidentes` con la herramienta de edición, sin tocar otros archivos.
+
+## Prompt 2
+
+**Modelo:** Opus 5.5
+**Herramienta:** Claude Code
+
+```
+Responde a estas tres preguntas por separado:
+
+- Qué archivos CLAUDE.md se cargaron al iniciar la sesión, citando la regla de cada uno.
+
+- Qué skills tiene disponibles.
+
+- Qué nombre ha dado al campo y por qué.
+```
+
+**Qué salió:** respondió las tres por separado; señaló que no se cargó ningún CLAUDE.md de blog-ai.
+
+## Prompt 3
+
+**Modelo:** Opus 5.5
+**Herramienta:** Claude Code
+
+```
+Añade los prompts de este ejercico  en el fichero de prompts.md respetando el formato definido.
+```
