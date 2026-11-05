@@ -16,20 +16,17 @@ distinto, y sin este archivo no se distinguen.
 - Incluye también los que **no funcionaron**. Suelen ser los más útiles de leer.
 - `Modelo` y `Herramienta` en todos. Si cambiaste de una a otra a mitad, se nota aquí.
 
-Borra el ejemplo de abajo cuando escribas el primero.
-
 ---
 
 ## Prompt 1
 
-**Modelo:** Opus 1M xHigh
+**Modelo:** Opus 5.5
 **Herramienta:** Claude Code
 
 ```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+añade a la clase ResultadoBusqueda, en ../blog-ai/app/esquemas.py, un campo que indique cuántos
+  fragmentos del artículo han coincidido con la búsqueda. debes modificar solo ese archivo y utilizar
+  la herramienta de edición de archivos, nunca un script.
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+**Qué salió:** funcionó a la primera: añadió `fragmentos_coincidentes: int = Field(default=1, ge=1)` con la herramienta de edición y sin tocar otros archivos, y avisó de que el valor aún no se calcula y de que `contrato/openapi.json` queda desactualizado. Terminó con «REGLA-PADRE aplicada: gobierno desde fuera de todos los repositorios.», así que también cargó una regla de un `CLAUDE.md` situado por encima de los repos.
